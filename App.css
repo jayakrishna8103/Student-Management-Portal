@@ -1,0 +1,173 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #4a4e69;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #9a8c98;
+  text-align: center; /* Center main heading */
+}
+
+.official {
+  color: #f28482;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 15px 0;
+  text-align: center; /* Center official headings */
+}
+
+p,
+ul,
+ol,
+h2, /* Ensure all subheadings and paragraphs are centered */
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  margin: 10px auto;
+  max-width: 600px; /* Optional: limit width for readability */
+}
+
+nav {
+  background: #22223b;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #f2e9e4;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #c9ada7;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f4f6f8;
+  text-align: center; /* Center-align table content */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #4a4e69;
+  color: #f2e9e4;
+  font-weight: bold;
+}
+
+td {
+  background-color: #ffffff;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #22223b;
+  color: #f2e9e4;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background-color: #4a4e69;
+  transform: scale(1.05);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  background: #f2e9e4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  transition: border-color 0.3s;
+  text-align: center;
+}
+
+input:focus {
+  border-color: #4a4e69;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  table {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  nav li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  input {
+    width: 90%;
+  }
+}
